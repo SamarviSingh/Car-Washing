@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <style>
+        .nav-c {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .nav-c img {
+            width: 100px;
+        }
+
+        .inp {
+            width: 450px;
+            height: 1.7rem;
+            border: 1px solid gray;
+            border-right: none;
+            border-radius: 16px 0px 0px 16px;
+            outline: none;
+        }
+
+        .search-btn {
+            border-radius: 0px 12px 12px 0px;
+
+            border: 1px solid gray;
+        }
+
+        .f {
+            display: flex;
+        }
+
+        .mic{
+            border-radius: 50%;
+            height : 35px;
+        width : 35px;
+        border: none;
+        }
+        
+        .sign-c > button, .sign-c > i{
+            color: blue;
+        }
+        .sign-c button{
+            padding: 5px;
+            border: 1px solid rgb(179, 177, 177);
+            border-radius: 24px;
+            width: 5rem;
+            height: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav-c">
+        <div><i class="fa-solid fa-bars"></i></div>
+        <div style="margin-right: auto;"><img src="logo.PNG" alt=""></div>
+        <div class="f">
+            <input type="text" class="inp" placeholder="Search">
+            <button class="search-btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+        <div style="margin-right: auto;">
+            <button  class="mic">
+                <i class="fa-solid fa-microphone"></i>
+            </button>
+        </div>
+        <div><i class="fa-solid fa-ellipsis-vertical"></i></div>
+        <div class="sign-c">
+            <button><i class="fa-regular fa-circle-user"></i>Sign In</button>
+        </div>
+    </div>
+</body>
+
+</html>

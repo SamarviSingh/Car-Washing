@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #para{
+    display: none;
+    }
+</style>
+<body>
+    <p id="para">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque in aliquid alias quo, vel quaerat magnam ratione omnis at excepturi error nemo explicabo obcaecati ut! Nesciunt rerum consequuntur alias ipsum!
+    </p>
+    <button onclick="readMore()">Read More</button>
+    <script>
+    const readMore= ()=>{
+        document.getElementById('para').style.display = "block";
+    }
+</script>
+</body>
+</html>
